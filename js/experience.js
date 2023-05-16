@@ -67,7 +67,7 @@ ScrollReveal({
   delay: 200,
 });
 
-ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
-ScrollReveal().reveal(".home-img img, .project-container, .portfolio-box, .testimonial-wrapper, .contact form", { origin: "bottom" });
+
+ScrollReveal().reveal(".project-container, .portfolio-box, .contact form", { origin: "bottom" });
 ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", { origin: "left" });
