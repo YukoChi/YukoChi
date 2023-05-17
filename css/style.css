@@ -606,7 +606,7 @@ section {
 
 /* contact section */
 .contact h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 .contact form {
   max-width: 70rem;
@@ -773,6 +773,9 @@ section {
 
   .contact {
     min-height: auto;
+  }
+  .heading {
+    font-size: 3.5rem;
   }
 
   .footer {
@@ -1012,6 +1015,9 @@ section {
 
   .contact form .input-box input {
     width: 100%;
+  }
+  .heading {
+    font-size: 3rem;
   }
 }
 
