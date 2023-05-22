@@ -12,15 +12,15 @@
 :root {
   --bg-color: #222;
   --text-color: #eee;
-  --main-color: #a11eec;
+  --main-color:  #654ea3;
   --text-color-colat: #333;
   --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 .dark-mode {
-  --bg-color: #fff;
+  --bg-color:  #eee;
   --text-color: #222;
-  --main-color: #1ed4ec;
+  --main-color:#654ea3;
   --text-color-colat: #fff;
   --shadow-color: rgba(0, 0, 0, 0.7);
 }
@@ -294,9 +294,16 @@ section {
 .home .profession-box .profession:nth-child(1) i {
   margin-right: 15px;
 }
-.home .profession-box .profession:nth-child(2),
+.home .profession-box .profession:nth-child(2){
+  padding-bottom: 20px;
+}
+.home .profession-box .profession:nth-child(3){
+  margin-right: 4rem;
+}
 .home .profession-box .profession:nth-child(4) {
   padding-bottom: 20px;
+  margin-bottom: 4rem;
+
 }
 
 .home .profession i {
@@ -330,7 +337,6 @@ section {
   border-bottom: 384px solid var(--main-color);
   border-left: 384px solid transparent;
 }
-
 /* gambar background */
 .home-img img {
   position: absolute;
